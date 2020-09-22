@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>底部满屏布局</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div class="head">
+        <h1>logo</h1>
+        <nav>
+          <a href="./index.html">首页</a>
+          <a href="./register.html">注册</a>
+          <a href="./login.html">登录</a>
+        </nav>
+      </div>
+    </header>
+    <div class="context">
+      <section>
+        <form action="http://localhost:3000/api/login" method="POST">
+          <label for="username">用户名：</label>
+          <input type="text" id="username" name="username" /><br>
+          <label for="username">密 码：</label>
+          <input type="password" id="password" name="password" /><br>
+          <input type="submit" value="确认" />
+          <input type="reset" value="重置" />
+        </form>
+      </section>
+    </div>
+    <footer>
+      <div class="foot">footer</div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>底部满屏布局</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div class="head">
+        <h1>logo</h1>
+        <nav>
+          <a href="./index.html">首页</a>
+          <a href="./register.html">注册</a>
+          <a href="./login.html">登录</a>
+        </nav>
+      </div>
+    </header>
+    <div class="context">
+      <section>
+        <form action="http://localhost:3000/api/register" method="POST">
+          <label for="username">用户名：</label>
+          <input type="text" placeholder="请输入用户名" maxlength="20" id="username" name="username"><br>
+          <label for="password">密 码：</label>
+          <input type="password" placeholder="请输入8～16位字母和数字" maxlength="16" id="password" name="password"><br>
+          <label for="sex">男</label>
+          <input type="radio" value="1" name="sex" />
+          <label for="sex">女</label>
+          <input type="radio" value="0" name="sex" /><br>
+          <label for="like">音乐</label>
+          <input type="checkbox" value="a" name="like" />
+          <label for="like">美术</label>
+          <input type="checkbox" value="b" name="like" />
+          <label for="like">电脑</label>
+          <input type="checkbox" value="c" name="like" /><br>
+          <button type="submit">确认</button>
+          <button type="reset">重置</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <div class="foot">footer</div>
+    </footer>
+  </div>
+</body>
+
+</html>
